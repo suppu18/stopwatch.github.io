@@ -1,0 +1,40 @@
+body{
+   background-color: rgb(224, 249, 253);
+}
+/* timer is for display screen */
+#timer{
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px;
+    height: 15%;
+    width: 50%;
+    border: 2px solid black;
+    font-size: 90px;
+    box-shadow: 5px 10px cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+#button{
+    margin: auto;
+    width: 60%;
+    height:10%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+#start,#stop,#reset{
+    border: 2px solid black;
+    padding:5px 5px;
+    border-radius: 50%;
+    box-shadow: 2px 5px black;
+    cursor: pointer;
+    user-select: none;
+}
+#start,#reset{
+    background-color: rgb(37, 231, 37);
+}
+#stop{
+    background-color: red;
+}
